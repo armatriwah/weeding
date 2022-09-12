@@ -1,0 +1,863 @@
+html {
+  scroll-behavior: smooth; 
+}
+* { 
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu";
+  color: rgb(56, 56, 56); 
+} 
+body {
+  background: wheat;
+  background-image: linear-gradient(#1ca7ca, #4ca784, #aab82c);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  overflow: hidden; 
+} 
+.open { 
+  background-image: url(../img/bg.webp);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+  transition: 0.5s all ease;
+} 
+.open h2 {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 20px;
+  color: #FFF;
+  text-align: center;
+  max-width: 600px;
+}
+.open h3 {
+  font-size: 20px;
+  color: #FFF;
+  max-width: 600px;
+  font-family: "Ubuntu";
+  text-align: center;
+}
+.open .card {
+  background-image: url(../img/background/libertynight.webp) ;
+  padding: 30px;
+  border-radius: 20px; 
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+  text-align: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+.open .card h3 { 
+  margin-top: 20px; 
+  text-align: center;
+} 
+.open .card img { 
+  height: 100px; 
+}
+
+/* Pertama */
+.pertama {
+  background-image: url(../img/background/japangatesunset.webp);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+.pertama img {
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+} 
+.pertama h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 50, 50);
+} 
+.pertama h1 {
+  font-family: "Ubuntu";
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 50, 50);
+} 
+.pertama h6 {
+  font-family: "Ubuntu";
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 50, 50);
+} 
+.pertama h5 {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+} 
+/* Pertama */
+
+/* Kedua */
+.kedua {
+  background-image: url(../img/background/libertysunset.webp);
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.kedua img {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+} 
+.kedua h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: #FFF;
+} 
+.kedua h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 30px;
+} 
+.kedua h6 {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 50px;
+} 
+.kedua h5 {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 35px;
+} 
+.kedua h4 {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 5px;
+} 
+/* Kedua */
+
+/* Ketiga */
+.ketiga {
+  background-image: url(../img/background/borobudursunset.webp);
+  height: 350vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.ketiga img {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+} 
+.ketiga h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 30px;
+} 
+.ketiga h6 {
+  font-family: "Ubuntu";
+  font-size: 25px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 50px;
+} 
+/* Ketiga */
+
+/* Keempat */
+.keempat {
+  background-image: url(../img/background/snownight.webp);
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.keempat img {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+} 
+.keempat h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+.keempat h6 {
+  font-family: "Ubuntu";
+  font-size: 25px;
+  color: rgb(255, 247, 175);
+  text-align: center;
+  margin-bottom: 50px;
+} 
+.img-wrapper {
+  position: relative;
+  margin-top: 15px;
+}
+.img-overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+#overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  -webkit-user-select: none;
+  -moz-user-select: none;    
+  -ms-user-select: none; 
+  user-select: none; 
+  @media screen and (min-width:768px) {
+  width: 60%;
+  }
+  @media screen and (min-width:1200px) {
+  width: 50%;
+  }
+}
+/* Keempat */
+
+/* Kelima */
+.kelima {
+  background-image: url(../img/background//japangatenight.webp);
+  height: 450vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.kelima img {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+} 
+.kelima h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 79, 79);
+  margin-bottom: 30px;
+} 
+.kelima h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(255, 79, 79);
+  margin-bottom: 30px;
+} 
+.kelima h6 {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: rgb(255, 79, 79);
+  text-align: center;
+  margin-bottom: 50px;
+} 
+/* Kelima */
+
+/* Keenam */
+.keenam {
+  background-image: url(../img/background/lighthousesunset.webp);
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.keenam img {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+} 
+.keenam h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(79, 255, 94);
+  margin-bottom: 30px;
+} 
+.keenam h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(79, 255, 94);
+  margin-bottom: 30px;
+} 
+/* Keenam */
+
+/* Ketujuh */
+.ketujuh {
+  background-image: url(../img/background/borobudurday.webp);
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.ketujuh h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(83, 25, 69);
+  margin-bottom: 30px;
+} 
+.maps iframe {
+  border-radius: 20px;
+}
+/* Ketujuh */
+
+/* Kedelapan */
+.kedelapan {
+  background-image: url(../img/background/fujiday.webp);
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.kedelapan h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(59, 83, 3);
+  margin-bottom: 30px;
+} 
+/* Kedelapan */
+
+/* Kesembilan */
+.kesembilan {
+  background-image: url(../img/background/snowday.webp);
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.kesembilan img {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+} 
+.kesembilan h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(116, 2, 2);
+  margin-bottom: 30px;
+} 
+:root {
+  --primary-color: #feeae8;
+  --dark-pink: #fa7064;
+  --light-pink: #fac9c9;
+  --secondary-color-blue: #2955f4;
+  --alternate-color: #f4fe69;
+}
+.tiket {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.flight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.flight h2 {
+  color: var(--secondary-color-blue);
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0;
+}
+.circle {
+  background-color: var(--alternate-color);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.top-tiket {
+  background-color: var(--primary-color);
+  padding: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 3px solid var(--light-pink);
+}
+.top-tiket h1 {
+  color: var(--secondary-color-blue);
+  font-size: 2.5rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  margin: 0 0 15px 0;
+}
+.top-tiket p {
+  color: var(--secondary-color-blue);
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+}
+h4 {
+  border-top: 2px solid var(--light-pink);
+  color: var(--light-pink);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 5px;
+}
+.info-tiket {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-areas:
+    "passenger passenger passenger passenger"
+    "boarding boarding gate gate"
+    "class class zone seat";
+}
+.passenger {
+  grid-area: passenger;
+}
+.boarding {
+  grid-area: boarding;
+}
+.gate {
+  grid-area: gate;
+}
+.class {
+  grid-area: class;
+}
+.zone {
+  grid-area: zone;
+}
+.seat {
+  grid-area: seat;
+}
+.bottom-tiket {
+  height: 450px;
+  background-color: var(--secondary-color-blue);
+  padding: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.bottom-tiket h1 {
+  color: var(--light-pink);
+  font-size: 2.5rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+}
+.bottom-tiket p {
+  color: var(--light-pink);
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 4px;
+  margin: 0;
+}
+.airport {
+  width: 190px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  align-self: left;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0 auto 0 0;
+  position: relative;
+}
+.square {
+  height: 15px;
+  width: 15px;
+}
+.left {
+  background-color: var(--alternate-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.right {
+  border: 1px solid var(--primary-color);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.middle {
+  border: 1px solid var(--alternate-color);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.line {
+  width: 15px;
+  border: 1.5px solid var(--primary-color);
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+.polygon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--alternate-color);
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+.qr-code img {
+  width: 190px;
+  height: 190px;
+  background-color: var(--primary-color);
+  border: 3px solid var(--alternate-color);
+}
+/* Kesembilan */
+
+/* Kesepuluh */
+.kesepuluh {
+  background-image: url(../img/background/lighthousesunset.webp);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+} 
+.kesepuluh h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(208, 255, 79);
+} 
+.kesepuluh h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(208, 255, 79);
+} 
+.kesepuluh h3 {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: rgb(208, 255, 79);
+  text-align: center;
+} 
+.material-icons-sharp {
+  color: red;
+  font-size: 100px;
+  transform: translateY(5px);
+  animation: kenyal 2s ease infinite;
+  cursor: pointer;
+} 
+@keyframes kenyal { 
+0% { 
+  transform: scale(1) translateY(5px);
+} 50% { 
+  transform: scale(1.2) translateY(5px); } 100% { transform: scale(1) translateY(5px);
+  } 
+}
+/* Kesepuluh */
+
+/* Footer */
+.footer {
+  font-family: "Poppins", sans-serif; 
+  background-image: url(../img/background/borobudurday.webp);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+}
+.footer .footer-site-logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #961515;
+}
+.footer .social h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000; 
+}
+.footer .social ul li {
+  display: inline-block; 
+}
+.footer .social ul li a {
+  display: inline-block;
+  padding: 10px; 
+}   
+.footer .copyright {
+  color: #999999; 
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Footer */
+
+label {
+  display: block;
+  color: #FFF;
+}
+.Grid {
+  display: block;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.Grid--withGutter {
+  margin: 0 -0.5rem;
+}
+
+.Grid--withGutter > .Grid-cell {
+  padding: 0 0.5rem;
+}
+
+.Grid-cell {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+  width: 100%;
+}
+.Card-image {
+  display: inline-block;
+  position: relative;
+}
+.Card-image:after {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.Card-image img {
+  display: block;
+  height: 50px;
+  width: 80px;
+}
+.Input {
+  background: #fff;
+  border: 3px solid #e1e1e1;
+  border-radius: 0.375rem;
+  color: #444;
+  display: block;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  -webkit-appearance: none;
+}
+.Input:hover {
+  border-color: #aaa;
+}
+.Input:focus {
+  border-color: #08c;
+  outline: 0;
+}
+.Tiles {
+  font-size: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.Tile {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0;
+  vertical-align: top;
+  width: 100%;
+}
+.Tile-content {
+  background-image: url(../img/background/japangatenight.webp);
+  margin: 1rem 0.5rem 0;
+  padding: 1rem;
+  position: relative;
+}
+.Tile-content--toggle {
+  cursor: pointer;
+}
+.Tile-content--toggle:focus, .Tile-content--toggle:hover {
+  box-shadow: 0 0 0 3px #75d1ff;
+  outline: 0;
+}
+.Tile.is-disabled .Tile-content--toggle {
+  cursor: default;
+  opacity: 0.5;
+}
+.Tile.is-disabled .Tile-content--toggle:focus, .Tile.is-disabled .Tile-content--toggle:hover {
+  box-shadow: none;
+}
+.Tile-flyout {
+  display: none;
+  position: relative;
+}
+.Tile.is-expanded .Tile-flyout {
+  display: block;
+}
+.Tile-flyout:before {
+  background: #fff;
+  content: "";
+  left: 50%;
+  margin-left: -0.5rem;
+  position: absolute;
+  height: 1rem;
+  top: -0.5rem;
+  transform: rotate(45deg);
+  width: 1rem;
+}
+@media (min-width: 30em) {
+.Tile {
+    width: 50%;
+}
+.Tile-flyout {
+    width: 200%;
+}
+.Tile:nth-child(2n+1) .Tile-flyout {
+    margin-left: 0%;
+}
+  .Tile:nth-child(2n+1) .Tile-flyout:before {
+    left: 25%;
+}
+.Tile:nth-child(2n+2) .Tile-flyout {
+    margin-left: -100%;
+}
+.Tile:nth-child(2n+2) .Tile-flyout:before {
+    left: 75%;
+ }
+}
+@media (min-width: 48em) {
+  .Tile {
+    width: 33.3333333333%;
+  }
+  .Tile-flyout {
+    width: 300%;
+  }
+  .Tile:nth-child(3n+1) .Tile-flyout {
+    margin-left: 0%;
+  }
+  .Tile:nth-child(3n+1) .Tile-flyout:before {
+    left: 16.6666666667%;
+  }
+  .Tile:nth-child(3n+2) .Tile-flyout {
+    margin-left: -100%;
+  }
+  .Tile:nth-child(3n+2) .Tile-flyout:before {
+    left: 50%;
+  }
+  .Tile:nth-child(3n+3) .Tile-flyout {
+    margin-left: -200%;
+  }
+  .Tile:nth-child(3n+3) .Tile-flyout:before {
+    left: 83.3333333333%;
+  }
+}
+@media (min-width: 64em) {
+  .Tile {
+    width: 25%;
+  }
+  .Tile-flyout {
+    width: 400%;
+  }
+  .Tile:nth-child(4n+1) .Tile-flyout {
+    margin-left: 0%;
+  }
+  .Tile:nth-child(4n+1) .Tile-flyout:before {
+    left: 12.5%;
+  }
+  .Tile:nth-child(4n+2) .Tile-flyout {
+    margin-left: -100%;
+  }
+  .Tile:nth-child(4n+2) .Tile-flyout:before {
+    left: 37.5%;
+  }
+  .Tile:nth-child(4n+3) .Tile-flyout {
+    margin-left: -200%;
+  }
+  .Tile:nth-child(4n+3) .Tile-flyout:before {
+    left: 62.5%;
+  }
+  .Tile:nth-child(4n+4) .Tile-flyout {
+    margin-left: -300%;
+  }
+  .Tile:nth-child(4n+4) .Tile-flyout:before {
+    left: 87.5%;
+  }
+}
+.u-size1of2 {
+  width: 50% !important;
+}
+@media (min-width: 48em) {
+  .u-md-size1of2 {
+    width: 50% !important;
+  }
+}
+.u-textCenter {
+  text-align: center !important;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #96ff6d;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  width: 415px;
+}
+.menu li {
+  float: center;
+}
+.menu li:last-child { 
+  border-right: none;
+}
+.menu li a {
+  display: block;
+  color: rgb(117, 23, 102);
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 35px;
+}
+.menu li a:hover {
+  background-color: #faffb4;
+}
